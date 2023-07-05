@@ -5,7 +5,6 @@ declare type IconProps = {
 }
 
 declare const Icon : React.FC<IconProps>
-declare const AdminFill : React.FC<IconProps>
 
 declare module 'react-remixicon-ts' {
 }

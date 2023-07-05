@@ -7,16 +7,16 @@ Easily use [Remixicon](https://remixicon.com/) icons as a React Component.
 
 ## Usage
 ```javascript
-import {Icon} from 'react-remixicon-ts'
+import {Icon} from 'react-remixicon-ts/lib'
 ```
 
 ```javascript
 <Icon icon={'admin-fill'} size={20} color={'black'}>
 ```
-# React Components
+### React Components
 We have a small selection of the most useful icons as React Components
 ```javascript
-import {AddFill} from 'react-remixicon-ts'
+import {AddFill} from 'react-remixicon-ts/lib'
 ```
 ````javascript
 <AddFill size={20} color={'white'}/>

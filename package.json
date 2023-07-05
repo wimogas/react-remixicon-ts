@@ -1,18 +1,23 @@
 {
   "name": "react-remixicon-ts",
   "version": "0.1.1",
-  "main": "lib/index.js",
-  "module": "lib/index.js",
-  "types": "./index.d.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "test": "vitest run",
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "tsc",
+    "ci": "npm lint && npm test && npm build"
   },
   "devDependencies": {
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react-dom": "^18.2.0", 
     "remixicon": "^3.4.0",
-    "typescript": "^5.1.6"
+    "tsup": "^7.1.0",
+    "typescript": "^5.1.6",
+    "vitest": "^0.32.4"
   }
 }
