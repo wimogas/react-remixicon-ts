@@ -2,8 +2,12 @@
 
 Easily use Remixicon icons as a React Component.
 
+
 ## Installation
-```npm install react-remixicon-ts```
+```javascript
+npm install react-remixicon-ts
+```
+
 
 ## Usage
 ```javascript
@@ -15,9 +19,11 @@ Use passing the remixicon icon class without the prefix ``.ri-``
 <Icon icon={'admin-fill'} size={20} color={'black'}>
 ```
 
+
 ## Remixicon Icons
 Find all the icons here:
 [Remixicon](https://remixicon.com/)
+
 
 ## Icons as React Components
 Coming soon
@@ -25,6 +31,7 @@ Coming soon
 ```javascript
 <AddFill size={20} color={'black'}>
 ```
+
 
 ## Author
 Guillem Moya
