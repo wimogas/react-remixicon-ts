@@ -1,28 +1,30 @@
 # Remixicon x Reactjs
 
-Easily use [Remixicon](https://remixicon.com/) icons as a React Component.
+Easily use Remixicon icons as a React Component.
 
 ## Installation
 ```npm install react-remixicon-ts```
 
 ## Usage
 ```javascript
-import {Icon} from 'react-remixicon-ts/lib'
+import {Icon} from 'react-remixicon-ts'
 ```
+Use passing the remixicon icon class without the prefix ``.ri-``
 
 ```javascript
 <Icon icon={'admin-fill'} size={20} color={'black'}>
 ```
-### React Components
-We have a small selection of the most useful icons as React Components
-```javascript
-import {AddFill} from 'react-remixicon-ts/lib'
-```
-````javascript
-<AddFill size={20} color={'white'}/>
-````
 
-Find all the complete collection of icons in our DEMO (coming soon)
+## Remixicon Icons
+Find all the icons here:
+[Remixicon](https://remixicon.com/)
+
+## Icons as React Components
+Coming soon
+
+```javascript
+<AddFill size={20} color={'black'}>
+```
 
 ## Author
 Guillem Moya

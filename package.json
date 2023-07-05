@@ -10,6 +10,9 @@
     "lint": "tsc",
     "ci": "npm lint && npm test && npm build"
   },
+  "peerDependencies": {
+    "remixicon": "^3.4.0"
+  },
   "devDependencies": {
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
