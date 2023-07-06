@@ -16,7 +16,7 @@ import {Icon} from 'react-remixicon-ts'
 Use passing the remixicon icon class without the prefix ``.ri-``
 
 ```javascript
-<Icon icon={'admin-fill'} size={20} color={'black'}>
+<Icon icon={'admin-fill'} size={20} color={'black'}/>
 ```
 
 
@@ -29,7 +29,7 @@ Find all the icons here:
 Coming soon
 
 ```javascript
-<AddFill size={20} color={'black'}>
+<AddFill size={20} color={'black'}/>
 ```
 
 
