@@ -1,5 +1,4 @@
 import React from "react";
-
 import 'remixicon/fonts/remixicon.css'
 
 type IconProps = {
@@ -7,11 +6,16 @@ type IconProps = {
   color?: string | undefined,
   icon: string
 }
-const Icon = ({size = 20, color='black', icon}: IconProps) => {
+const Icon = ({size = 20, color='black', icon = 'ghost-line'}: IconProps) => {
 
   return (
-      <div style={{ fontSize: `${size}px`, color }}>
-        <i className={`ri-${icon}`}></i>
+      <div style={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          width: `${size}px`,
+          height: `${size}px`}}>
+        <i className={`ri-${icon}`} style={{ fontSize: `${size}px`, color }}></i>
       </div>
   );
 };
